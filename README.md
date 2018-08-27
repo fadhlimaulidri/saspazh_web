@@ -2,11 +2,12 @@
 
 Sinatra mysql
 
+```
 $cd ~/Desktop
 $mkdir project-name
 $cd project-name
 $touch Gemfile
-
+```
 ## Gemfile
 ```
 source 'https://rubygems.org'
@@ -20,8 +21,9 @@ gem 'dotenv'
 ```
 
 ## Install the dependencies
-
+```
 $bundle install
+```
 
 ## Create an app.rb file
 ```
@@ -84,8 +86,9 @@ require './models'
 ```
 
 ## Create a seeds file
-
+```
 $touch db/seeds.rb
+```
 
 ## Write some seeds
 
